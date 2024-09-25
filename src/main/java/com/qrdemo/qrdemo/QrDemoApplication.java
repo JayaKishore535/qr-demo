@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 public class QrDemoApplication {
 
-	@getmapping ("/message")
+	@GetMapping ("/message")
 	public String message () {
 		return "qr server has been deployed in azure " ;
 	}
